@@ -1,2 +1,2 @@
 # data-structure-algorithm
-Learning and implementing data structures using JavaScript
+Learning and implementing data structures and algorithms using JavaScript
