@@ -73,3 +73,5 @@ bst.insert(2);
 bst.insert(4);
 
 console.log(JSON.stringify(bst));
+
+module.exports = BinarySearchTree;
