@@ -5,9 +5,9 @@
  * to the lower half. Otherwise narrow it to the upper half. Repeatedly check until the
  * value is found or the interval is empty.
  * Worst/avg O(logn) best O(1)
- * @param arr
- * @param elem
- * @return {number}
+ * @param {number[]} arr 
+ * @param {number} elem 
+ * @returns 
  */
 const binarySearch = (arr, elem) => {
   let start = 0;

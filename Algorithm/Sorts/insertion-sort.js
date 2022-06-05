@@ -12,11 +12,11 @@ function insertionSort(arr) {
       minIndex = j;
       arr[j + 1] = arr[j];
     }
-    if (minIndex >= 0) {
+    if (minIndex > -1) {
       arr[minIndex] = currElem;
     }
   }
   return arr;
 }
 
-console.log(insertionSort([3,6,1,34,2]));
+console.log(insertionSort([9,-1,0,2]));
